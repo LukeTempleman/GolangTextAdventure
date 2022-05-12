@@ -12,6 +12,7 @@ func homeScreen() {
 	fmt.Println("Please Select an option")
 	fmt.Println("1) Start Game")
 	fmt.Println("2) How To Play")
+	fmt.Println("3) Multiplayer")
 	fmt.Println("3) Exit")
 
 	var answer string
@@ -24,9 +25,11 @@ func homeScreen() {
 		case "1":
 			fmt.Print("yeet")
 		case "2":
-			tutorial()
+			tutorialStart()
 		case "3":
-			fmt.Print("Goodbye")
+			fmt.Print("Coming soon")
+		case "4":
+			fmt.Println("GoodBye")
 		default:
 			fmt.Println("Not an answer... Try again")
 		}
@@ -34,5 +37,3 @@ func homeScreen() {
 	}
 
 }
-
-
